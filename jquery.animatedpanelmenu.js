@@ -1,3 +1,13 @@
+/**
+ * AnimatedPanelMenu
+ * 
+ * @category   jquery
+ * @package    plugin
+ * @copyright  Víctor Bueno García 2012 neobytec@gmail.com http://www.neobytec.com
+ * @license    MIT License (LICENSE.txt)
+ * @version    1.0
+ * 
+ */
 (function($) {
     //Función principal del plugin.
     $.fn.AnimatedPanelMenu = function(options) {
