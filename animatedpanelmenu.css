@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+/* Eliminamos margenes por defecto de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.AnimatedPanelMenu {
+    /* Tamaño de la barra del menú */
+    height: 40px;
+    width: 100%;
+ 
+    /* Posición barra del menú */
+    position: fixed;
+    top: 0;
+ 
+    /* Degradado de la barra del menú */
+    background-image: linear-gradient(bottom, rgb(34,34,34) 50%, rgb(34,34,34) 0%, #616161 100%);
+    background-image: -o-linear-gradient(bottom, rgb(34,34,34) 50%, rgb(34,34,34) 0%, #616161 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(34,34,34) 50%, rgb(34,34,34) 0%, #616161 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(34,34,34) 50%, rgb(34,34,34) 0%, #616161 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(34,34,34) 50%, rgb(34,34,34) 0%, #616161 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.5, rgb(34,34,34)),
+        color-stop(0, rgb(34,34,34)),
+        color-stop(1, rgb(97,97,97))
+    );
+ 
+    /* Sombras de la barra del menú */
+    -moz-box-shadow: 0px 7px 10px #888;
+    -webkit-box-shadow: 0px 7px 10px #888;
+    box-shadow: 0px 7px 10px #888;
+}
+ 
+.AnimatedPanelMenu > ul {
+    height: 100%;
+    list-style: none;
+    width: 100%;
+}
+ 
+.AnimatedPanelMenu > ul > li {
+    float: left;
+    height: 100%;
+}
+ 
+.AnimatedPanelMenu > ul > li > a {
+    color: #EBEBEB;
+    float: left;
+    font-weight: bold;
+    height: 100%;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-decoration: none;
+    border-right: 1px solid #444444;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.3);
+}
+ 
+.AnimatedPanelMenu > ul > li > a:hover, .AnimatedPanelMenu > ul > li > a.active {
+    color: #222222;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-right: 1px solid #000;
+ 
+    background-image: linear-gradient(bottom, rgb(235,235,235) 0%, rgb(235,235,235) 0%, rgb(189,189,189) 80%);
+    background-image: -o-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(235,235,235) 0%, rgb(189,189,189) 80%);
+    background-image: -moz-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(235,235,235) 0%, rgb(189,189,189) 80%);
+    background-image: -webkit-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(235,235,235) 0%, rgb(189,189,189) 80%);
+    background-image: -ms-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(235,235,235) 0%, rgb(189,189,189) 80%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(235,235,235)),
+        color-stop(0, rgb(235,235,235)),
+        color-stop(0.8, rgb(189,189,189))
+    );
+}
+ 
+.AnimatedPanelMenu > ul > li > div {
+    border-bottom: 1px solid #E2E2E2;
+    border-top: 1px solid #333333;
+    box-shadow: 0 7px 8px #888888;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    color: #e2e2e2;
+    padding: 20px;
+    background-color: #1f1f1f;
+    display: none;
+}
+ 
+.AnimatedPanelMenu > ul > li > div > div {
+    border-right: 1px solid #444444;
+    float: left;
+    padding: 0 30px;
+}
+ 
+.AnimatedPanelMenu > ul > li > div > div > h2 {
+    font-size: 1.1em;
+}
+ 
+.AnimatedPanelMenu > ul > li > div > div > ul {
+    list-style: square;
+    margin: 10px 0 0 40px;
+}
+ 
+.AnimatedPanelMenu > ul > li > div a {
+    color: #e2e2e2;
+    text-decoration: none;
+    border: 0;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+}
+ 
+.AnimatedPanelMenu > ul > li > div a:hover {
+    text-decoration: underline;
+}
+ 
+.AnimatedPanelMenu > ul > li > div > ul {
+    float: left;
+    list-style: square;
+    margin: 10px 20px 0 25px;
+}

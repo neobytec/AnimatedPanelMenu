@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset=utf-8>
+		<title>LABS: Crear un menú fijo desplegable con efectos animados en jQuery</title>
+		<link rel="stylesheet" href="animatedpanelmenu.css" type="text/css" media="all" />
+		<script language="javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script language="javascript" src="jquery.animatedpanelmenu.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('nav').AnimatedPanelMenu();
+			});
+		</script>
+	</head>
+	<body>
+		<nav>
+		    <ul>
+		        <li><a href="#" title="Inicio">Inicio</a></li>
+		        <li>
+		        	<a href="#" title="Productos">Productos</a>
+		        	<div>
+		        		<div>
+			        		<h2>Productos</h2>
+			        		<ul>
+			        			<li><a href="#" title="Producto">Producto 1</a></li>
+			        			<li><a href="#" title="Producto">Producto 2</a></li>
+			        			<li><a href="#" title="Producto">Producto 3</a></li>
+			        			<li><a href="#" title="Producto">Producto 4</a></li>
+			        			<li><a href="#" title="Producto">Producto 5</a></li>
+			        		</ul>
+		        		</div>
+		        		<div>
+			        		<h2>Destacados</h2>
+			        		<ul>
+			        			<li><a href="#" title="Destacado">Destacado 1</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 2</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 3</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 4</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 5</a></li>
+			        		</ul>
+		        		</div>
+		        	</div>
+		        </li>
+		        <li>
+		        	<a href="#" title="Servicios">Servicios</a>
+		        	<div>
+		        		<div>
+			        		<h2>Servicios</h2>
+			        		<ul>
+			        			<li><a href="#" title="Servicio">Servicio 1</a></li>
+			        			<li><a href="#" title="Servicio">Servicio 2</a></li>
+			        			<li><a href="#" title="Servicio">Servicio 3</a></li>
+			        			<li><a href="#" title="Servicio">Servicio 4</a></li>
+			        			<li><a href="#" title="Servicio">Servicio 5</a></li>
+			        		</ul>
+		        		</div>
+		        		<div>
+			        		<h2>Destacados</h2>
+			        		<ul>
+			        			<li><a href="#" title="Destacado">Destacado 1</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 2</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 3</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 4</a></li>
+			        			<li><a href="#" title="Destacado">Destacado 5</a></li>
+			        		</ul>
+		        		</div>
+		        	</div>
+		        </li>
+		        <li><a href="#" title="Sobre nosotros">Sobre nosotros</a></li>
+		        <li><a href="#" title="Contacto">Contacto</a></li>
+		    </ul>
+		</nav>
+	</body>
+</html>
