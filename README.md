@@ -1,15 +1,15 @@
 AnimatedPanelMenu
 ===================
 
-AnimatedPanelMenu is jQuery Plugin which gives you a static menu placed on top of the web. This menu has panels, that when you click a menu item appears whith and animated effect.
+AnimatedPanelMenu is jQuery Plugin which gives you a static menu placed on top of the web. This menu has panels, that appear when you click on an item in the menu with an animated effect.
 
-This plugin provides you two interactions, one of then clicking in the menu item and the other on mouseover the menu item.
+This plugin provides you two interactions, one of then clicking on the menu item and the other when you mouse over the menu item.
 
-The two interactions can be choosed through the plugin options. The easiest way to use the plugin is the following:
+The two interactions can be choosen through the plugin options. The easiest way to use the plugin is as follows:
 
     $('nav').AnimatedPanelMenu();
 
-This plugin needs a css file which is named animatedpanelmenu.css. You can change the css styles without modify the name of the classes.
+This plugin needs a css file which is named animatedpanelmenu.css. You can change the css styles without modifying the name of the classes.
 
 ## Demos
 
@@ -23,7 +23,7 @@ The plugin has only one option:
 
 ## Dependences
 
-This plugin only depends of jQuery 1.7.1.
+This plugin only depends on jQuery 1.7.1.
 
 ## Browsers
 
